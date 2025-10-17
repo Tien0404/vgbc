@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "ariaLabel": "Điều hướng chính",
+    "homeLabel": "Trang chủ",
+    "services": "Dịch vụ",
+    "testimonials": "Khách hàng",
+    "blog": "Kiến thức",
+    "news": "Tin tức",
+    "contact": "Liên hệ"
+  },
+  "lang": {
+    "current": "VI"
+  },
+  "hero": {
+    "title": "Dịch vụ phiên dịch & ngôn ngữ chuyên nghiệp",
+    "subtitle": "Đội ngũ thông dịch viên dày dặn kinh nghiệm, tác phong chuẩn mực, sẵn sàng đồng hành cùng các sự kiện quốc tế của doanh nghiệp bạn.",
+    "btnServices": "Xem dịch vụ",
+    "btnQuote": "Nhận báo giá",
+    "videoLabel": "Video giới thiệu",
+    "videoTitle": "Giới thiệu"
+  },
+  "testimonials": {
+    "title": "Khách hàng nói gì",
+    "ariaLabel": "Cảm nhận khách hàng",
+    "prev": "Trước",
+    "next": "Tiếp",
+    "testimonial1": "Dịch cabin mượt mà, dễ nghe; đội ngũ linh hoạt và chuẩn bị kỹ lưỡng cho chủ đề chuyên sâu.",
+    "testimonial1Author": "Đại diện doanh nghiệp năng lượng",
+    "testimonial2": "Tốc độ xử lý thuật ngữ tốt, hỗ trợ chương trình trơn tru từ khâu chuẩn bị đến vận hành.",
+    "testimonial2Author": "Tổ chức hội thảo tài chính",
+    "testimonial3": "MC song ngữ duyên dáng, kết nối khán giả và diễn giả quốc tế rất tự nhiên.",
+    "testimonial3Author": "Công ty truyền thông sự kiện",
+    "testimonial4": "Đội ngũ biên dịch chuẩn xác, thống nhất thuật ngữ, bàn giao nhanh.",
+    "testimonial4Author": "Nhà xuất bản"
+  },
+  "services": {
+    "title": "Chúng tôi cung cấp",
+    "subtitle": "Danh mục dịch vụ toàn diện cho doanh nghiệp.",
+    "ariaLabel": "Dịch vụ chuyên nghiệp",
+    "conference": "Phiên dịch Hội nghị",
+    "conferenceDesc": "Cung cấp phiên dịch chuyên nghiệp cho các hội nghị, sự kiện quốc tế với đội ngũ thông dịch viên kinh nghiệm.",
+    "bilingualMC": "MC Song ngữ",
+    "bilingualMCDesc": "Dẫn dắt chuyên nghiệp các sự kiện bằng hai ngôn ngữ, kết nối hiệu quả khán giả đa văn hóa.",
+    "english": "Tiếng Anh Doanh nghiệp",
+    "englishDesc": "Dạy tiếng Anh chuyên biệt cho doanh nghiệp và doanh nhân, tập trung vào giao tiếp thương mại quốc tế.",
+    "events": "Tổ chức sự kiện",
+    "eventsDesc": "Tổ chức chuyên nghiệp các hội nghị, hội thảo, sự kiện với quy mô đa dạng từ nhỏ đến lớn.",
+    "media": "Truyền thông báo chí",
+    "mediaDesc": "Cung cấp dịch vụ truyền thông, quảng cáo trên các phương tiện báo chí, nâng cao hình ảnh thương hiệu.",
+    "business": "Kết nối kinh doanh",
+    "businessDesc": "Xúc tiến thương mại, kết nối doanh nghiệp, tạo cơ hội hợp tác kinh doanh trong và ngoài nước.",
+    "investment": "Kêu gọi vốn đầu tư",
+    "investmentDesc": "Hỗ trợ kêu gọi vốn đầu tư cho các dự án, kết nối với nhà đầu tư trong và ngoài nước.",
+    "viewMore": "Xem thêm"
+  },
+  "blog": {
+    "title": "Bài viết mới",
+    "ariaLabel": "Bài viết mới nhất",
+    "post1": {
+      "title": "Phiên dịch tại diễn đàn ESG",
+      "category": "Chuyên mục: Môi trường &middot; 17/10/2025",
+      "label": "Bài viết 1"
+    },
+    "post2": {
+      "title": "Hội thảo kiến trúc xây dựng",
+      "category": "Chuyên mục: Bất động sản &middot; 17/10/2025",
+      "label": "Bài viết 2"
+    },
+    "post3": {
+      "title": "Martech 2025",
+      "category": "Chuyên mục: Marketing &middot; 17/10/2025",
+      "label": "Bài viết 3"
+    }
+  },
+  "order": {
+    "title": "Đặt hàng dịch vụ",
+    "subtitle": "Chọn các dịch vụ bạn quan tâm và bấm <strong>Tiếp tục</strong>.",
+    "ariaLabel": "Đặt hàng & đăng ký",
+    "continue": "Tiếp tục",
+    "services": {
+      "conference": "Phiên dịch Hội nghị",
+      "bilingualMC": "MC Song ngữ",
+      "english": "Tiếng Anh Doanh nghiệp",
+      "events": "Tổ chức sự kiện",
+      "media": "Truyền thông báo chí",
+      "business": "Kết nối kinh doanh",
+      "investment": "Kêu gọi vốn đầu tư"
+    }
+  },
+  "newsletter": {
+    "title": "Đăng ký nhận tin",
+    "subtitle": "Nhận thông tin khoá học và bài viết mới qua email.",
+    "placeholder": "Email của bạn",
+    "subscribe": "Đăng ký",
+    "ariaLabel": "Đăng ký nhận tin"
+  },
+  "contact": {
+    "title": "Liên hệ với chúng tôi",
+    "ariaLabel": "Liên hệ",
+    "address": "Địa chỉ:",
+    "phone": "Điện thoại:",
+    "email": "Email:",
+    "mapLabel": "Bản đồ",
+    "social": {
+      "facebook": "Facebook",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "footer": {
+    "tagline": "Cung cấp dịch vụ phiên dịch, MC song ngữ, tiếng Anh doanh nghiệp, tổ chức sự kiện, truyền thông, kết nối kinh doanh và kêu gọi vốn đầu tư",
+    "contact": "Liên hệ",
+    "follow": "Theo dõi chúng tôi",
+    "copyright": "© <span id=\"year\"></span> VGBC — Cung cấp dịch vụ phiên dịch, MC song ngữ, tiếng Anh doanh nghiệp, tổ chức sự kiện, truyền thông, kết nối kinh doanh và kêu gọi vốn đầu tư.",
+    "backToTop": "Lên đầu trang",
+    "backToTopLabel": "Lên đầu trang"
+  },
+  "meta": {
+    "title": "Trang dịch vụ ngôn ngữ — Mẫu giao diện trang chủ",
+    "description": "Mẫu giao diện trang chủ cho doanh nghiệp cung cấp dịch vụ phiên dịch, biên dịch, MC song ngữ và đào tạo."
+  },
+  "form": {
+    "alert": "Đây là mẫu giao diện. Hãy kết nối backend/email theo nhu cầu của bạn."
+  },
+  "news": {
+    "title": "Tin tức mới",
+    "subtitle": "Cập nhật những thông tin mới nhất về dịch vụ ngôn ngữ và sự kiện.",
+    "ariaLabel": "Tin tức mới nhất",
+    "addNews": "Thêm tin tức",
+    "addNewsTitle": "Thêm tin tức mới",
+    "closeModal": "Đóng",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "form": {
+      "title": "Tiêu đề",
+      "category": "Danh mục",
+      "content": "Nội dung",
+      "image": "Hình ảnh (URL)",
+      "author": "Tác giả"
+    },
+    "categories": {
+      "language": "Ngôn ngữ",
+      "events": "Sự kiện",
+      "training": "Đào tạo",
+      "other": "Khác"
+    },
+    "viewMore": "Xem thêm",
+    "delete": "Xóa",
+    "authorPrefix": "Tác giả:",
+    "messages": {
+      "added": "Tin tức đã được thêm thành công!",
+      "deleted": "Tin tức đã được xóa!",
+      "confirmDelete": "Bạn có chắc chắn muốn xóa tin tức này?"
+    }
+  }
+}

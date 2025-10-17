@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "ariaLabel": "主导航",
+    "homeLabel": "首页",
+    "services": "服务",
+    "testimonials": "客户",
+    "blog": "知识",
+    "news": "新闻",
+    "contact": "联系"
+  },
+  "lang": {
+    "current": "中文"
+  },
+  "hero": {
+    "title": "专业口译与语言服务",
+    "subtitle": "经验丰富的口译团队，专业风范，随时为您企业的国际活动提供支持。",
+    "btnServices": "查看服务",
+    "btnQuote": "获取报价",
+    "videoLabel": "介绍视频",
+    "videoTitle": "介绍"
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "ariaLabel": "客户感言",
+    "prev": "上一个",
+    "next": "下一个",
+    "testimonial1": "同传流畅，易于聆听；团队灵活，对专业主题准备充分。",
+    "testimonial1Author": "能源公司代表",
+    "testimonial2": "术语处理速度快，从准备到运营全程支持节目顺利进行。",
+    "testimonial2Author": "金融研讨会组织者",
+    "testimonial3": "双语主持人优雅，自然连接多元文化观众和国际演讲者。",
+    "testimonial3Author": "活动媒体公司",
+    "testimonial4": "翻译团队准确，术语一致，交付快速。",
+    "testimonial4Author": "出版社"
+  },
+  "services": {
+    "title": "我们提供",
+    "subtitle": "为您的企业提供全面的商业服务。",
+    "ariaLabel": "专业服务",
+    "conference": "会议口译",
+    "conferenceDesc": "为会议和国际活动提供专业口译服务，拥有经验丰富的口译团队。",
+    "bilingualMC": "双语主持",
+    "bilingualMCDesc": "专业的双语活动主持，有效连接多元文化观众。",
+    "english": "商务英语",
+    "englishDesc": "为企业家和企业家提供专业英语教学，专注于国际商务沟通。",
+    "events": "活动组织",
+    "eventsDesc": "专业组织各种规模从大到小的会议、研讨会和活动。",
+    "media": "媒体与新闻关系",
+    "mediaDesc": "提供媒体和新闻广告服务，提升品牌形象和知名度。",
+    "business": "商务网络",
+    "businessDesc": "贸易促进、企业连接，为国内外商务合作创造机会。",
+    "investment": "投资融资",
+    "investmentDesc": "支持项目投资融资，连接国内外投资者。",
+    "viewMore": "查看更多"
+  },
+  "blog": {
+    "title": "最新文章",
+    "ariaLabel": "最新文章",
+    "post1": {
+      "title": "ESG论坛口译服务",
+      "category": "分类：环境 &middot; 17/10/2025",
+      "label": "文章1"
+    },
+    "post2": {
+      "title": "建筑建造研讨会",
+      "category": "分类：房地产 &middot; 17/10/2025",
+      "label": "文章2"
+    },
+    "post3": {
+      "title": "Martech 2025",
+      "category": "分类：市场营销 &middot; 17/10/2025",
+      "label": "文章3"
+    }
+  },
+  "order": {
+    "title": "订购服务",
+    "subtitle": "选择您感兴趣的服务，然后点击<strong>继续</strong>。",
+    "ariaLabel": "订购与订阅",
+    "continue": "继续",
+    "services": {
+      "conference": "会议口译",
+      "bilingualMC": "双语主持",
+      "english": "商务英语",
+      "events": "活动组织",
+      "media": "媒体与新闻关系",
+      "business": "商务网络",
+      "investment": "投资融资"
+    }
+  },
+  "newsletter": {
+    "title": "订阅通讯",
+    "subtitle": "通过电子邮件接收课程信息和最新文章。",
+    "placeholder": "您的电子邮件",
+    "subscribe": "订阅",
+    "ariaLabel": "通讯订阅"
+  },
+  "contact": {
+    "title": "联系我们",
+    "ariaLabel": "联系",
+    "address": "地址：",
+    "phone": "电话：",
+    "email": "电子邮件：",
+    "mapLabel": "地图",
+    "social": {
+      "facebook": "Facebook",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "footer": {
+    "tagline": "提供会议口译、双语主持、商务英语、活动组织、媒体关系、商务网络和投资融资服务",
+    "contact": "联系",
+    "follow": "关注我们",
+    "copyright": "© <span id=\"year\"></span> VGBC — 提供会议口译、双语主持、商务英语、活动组织、媒体关系、商务网络和投资融资服务。",
+    "backToTop": "返回顶部",
+    "backToTopLabel": "返回顶部"
+  },
+  "meta": {
+    "title": "语言服务 — 主页模板",
+    "description": "为提供口译、翻译、双语主持和培训服务的企业设计的主页模板。"
+  },
+  "form": {
+    "alert": "这是模板界面。请根据您的需求连接后端/电子邮件。"
+  },
+  "news": {
+    "title": "最新新闻",
+    "subtitle": "了解语言服务和活动的最新信息。",
+    "ariaLabel": "最新新闻",
+    "addNews": "添加新闻",
+    "addNewsTitle": "添加新文章",
+    "closeModal": "关闭",
+    "cancel": "取消",
+    "save": "保存",
+    "form": {
+      "title": "标题",
+      "category": "类别",
+      "content": "内容",
+      "image": "图片 (URL)",
+      "author": "作者"
+    },
+    "categories": {
+      "language": "语言",
+      "events": "活动",
+      "training": "培训",
+      "other": "其他"
+    },
+    "viewMore": "查看更多",
+    "delete": "删除",
+    "authorPrefix": "作者：",
+    "messages": {
+      "added": "新闻文章已成功添加！",
+      "deleted": "新闻文章已删除！",
+      "confirmDelete": "您确定要删除这篇新闻文章吗？"
+    }
+  }
+}

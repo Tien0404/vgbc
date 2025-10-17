@@ -1,0 +1,156 @@
+{
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "homeLabel": "Home",
+    "services": "Services",
+    "testimonials": "Clients",
+    "blog": "Knowledge",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "lang": {
+    "current": "EN"
+  },
+  "hero": {
+    "title": "Professional Interpretation & Language Services",
+    "subtitle": "Our experienced interpreters with professional demeanor are ready to support your international business events.",
+    "btnServices": "View Services",
+    "btnQuote": "Get Quote",
+    "videoLabel": "Introduction video",
+    "videoTitle": "Introduction"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "ariaLabel": "Client testimonials",
+    "prev": "Previous",
+    "next": "Next",
+    "testimonial1": "Smooth cabin interpretation, easy to listen to; flexible team and well-prepared for specialized topics.",
+    "testimonial1Author": "Energy Company Representative",
+    "testimonial2": "Good terminology processing speed, smooth program support from preparation to operation.",
+    "testimonial2Author": "Financial Workshop Organizer",
+    "testimonial3": "Elegant bilingual MC, naturally connecting multicultural audiences and international speakers.",
+    "testimonial3Author": "Event Media Company",
+    "testimonial4": "Accurate translation team, consistent terminology, fast delivery.",
+    "testimonial4Author": "Publisher"
+  },
+  "services": {
+    "title": "What We Offer",
+    "subtitle": "Comprehensive business services for your enterprise.",
+    "ariaLabel": "Professional services",
+    "conference": "Conference Interpretation",
+    "conferenceDesc": "Professional interpretation services for conferences and international events with experienced interpreters.",
+    "bilingualMC": "Bilingual MC",
+    "bilingualMCDesc": "Professional event hosting in two languages, effectively connecting multicultural audiences.",
+    "english": "Business English",
+    "englishDesc": "Specialized English teaching for businesses and entrepreneurs, focusing on international business communication.",
+    "events": "Event Organization",
+    "eventsDesc": "Professional organization of conferences, seminars, and events of various scales from small to large.",
+    "media": "Media & Press Relations",
+    "mediaDesc": "Providing media and press advertising services to enhance brand image and visibility.",
+    "business": "Business Networking",
+    "businessDesc": "Trade promotion, business connections, creating opportunities for domestic and international business cooperation.",
+    "investment": "Investment Fundraising",
+    "investmentDesc": "Supporting investment fundraising for projects, connecting with domestic and international investors.",
+    "viewMore": "View More"
+  },
+  "blog": {
+    "title": "Latest Articles",
+    "ariaLabel": "Latest articles",
+    "post1": {
+      "title": "Interpretation at ESG Forum",
+      "category": "Category: Environment &middot; 17/10/2025",
+      "label": "Article 1"
+    },
+    "post2": {
+      "title": "Architecture and Construction Workshop",
+      "category": "Category: Real Estate &middot; 17/10/2025",
+      "label": "Article 2"
+    },
+    "post3": {
+      "title": "Martech 2025",
+      "category": "Category: Marketing &middot; 17/10/2025",
+      "label": "Article 3"
+    }
+  },
+  "order": {
+    "title": "Order Service",
+    "subtitle": "Select services you are interested in and click <strong>Continue</strong>.",
+    "ariaLabel": "Order & Subscribe",
+    "continue": "Continue",
+    "services": {
+      "conference": "Conference Interpretation",
+      "bilingualMC": "Bilingual MC",
+      "english": "Business English",
+      "events": "Event Organization",
+      "media": "Media & Press Relations",
+      "business": "Business Networking",
+      "investment": "Investment Fundraising"
+    }
+  },
+  "newsletter": {
+    "title": "Newsletter Subscription",
+    "subtitle": "Receive course information and new articles via email.",
+    "placeholder": "Your Email",
+    "subscribe": "Subscribe",
+    "ariaLabel": "Newsletter subscription"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "ariaLabel": "Contact",
+    "address": "Address:",
+    "phone": "Phone:",
+    "email": "Email:",
+    "mapLabel": "Map",
+    "social": {
+      "facebook": "Facebook",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "footer": {
+    "tagline": "Providing conference interpretation, bilingual MC, business English, event organization, media relations, business networking, and investment fundraising services",
+    "contact": "Contact",
+    "follow": "Follow Us",
+    "copyright": "© <span id=\"year\"></span> VGBC — Providing conference interpretation, bilingual MC, business English, event organization, media relations, business networking, and investment fundraising services.",
+    "backToTop": "Back to Top",
+    "backToTopLabel": "Back to Top"
+  },
+  "meta": {
+    "title": "Language Services — Homepage Template",
+    "description": "Homepage template for businesses providing interpretation, translation, bilingual MC and training services."
+  },
+  "form": {
+    "alert": "This is a template interface. Please connect backend/email according to your needs."
+  },
+  "news": {
+    "title": "Latest News",
+    "subtitle": "Stay updated with the latest information about language services and events.",
+    "ariaLabel": "Latest news",
+    "addNews": "Add News",
+    "addNewsTitle": "Add New Article",
+    "closeModal": "Close",
+    "cancel": "Cancel",
+    "save": "Save",
+    "form": {
+      "title": "Title",
+      "category": "Category",
+      "content": "Content",
+      "image": "Image (URL)",
+      "author": "Author"
+    },
+    "categories": {
+      "language": "Language",
+      "events": "Events",
+      "training": "Training",
+      "other": "Other"
+    },
+    "viewMore": "View More",
+    "delete": "Delete",
+    "authorPrefix": "Author:",
+    "messages": {
+      "added": "News article has been added successfully!",
+      "deleted": "News article has been deleted!",
+      "confirmDelete": "Are you sure you want to delete this news article?"
+    }
+  }
+}
