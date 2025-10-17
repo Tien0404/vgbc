@@ -1,0 +1,30 @@
+<nav class="mainnav" aria-label="Điều hướng chính" data-i18n-aria="nav.ariaLabel">
+  <div class="container nav-wrap">
+    <a class="brand" href="#" aria-label="Trang chủ" data-i18n-aria="nav.homeLabel">
+      <img src="images/logo.jpg" alt="VGBC Logo" class="brand__logo" />
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">☰</button>
+
+    <ul id="navMenu" class="menu">
+      <li class="menu__item"><a href="#services" data-i18n="nav.services">Dịch vụ</a></li>
+      <li class="menu__item"><a href="#testimonials" data-i18n="nav.testimonials">Khách hàng</a></li>
+      <li class="menu__item"><a href="#blog" data-i18n="nav.blog">Kiến thức</a></li>
+      <li class="menu__item"><a href="#news" data-i18n="nav.news">Tin tức</a></li>
+      <li class="menu__item cta"><a href="#contact" data-i18n="nav.contact">Liên hệ</a></li>
+      <li class="menu__item lang-switcher">
+        <div class="lang-dropdown">
+          <button class="lang-toggle" aria-expanded="false" aria-controls="langMenu">
+            <span class="lang-current" data-i18n="lang.current">VI</span>
+            <span class="lang-arrow">▼</span>
+          </button>
+          <ul id="langMenu" class="lang-menu">
+            <li><a href="#" data-lang="vi" class="lang-option active">VI</a></li>
+            <li><a href="#" data-lang="en" class="lang-option">EN</a></li>
+            <li><a href="#" data-lang="zh" class="lang-option">中文</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -11,380 +11,84 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Bạn có thể thay đổi font theo brand của bạn -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
 
-
-  <nav class="mainnav" aria-label="Điều hướng chính" data-i18n-aria="nav.ariaLabel">
-    <div class="container nav-wrap">
-      <a class="brand" href="#" aria-label="Trang chủ" data-i18n-aria="nav.homeLabel">
-        <!-- Thay bằng logo của bạn -->
-        <span class="brand__logo" aria-hidden="true">◎</span>
-        <span class="brand__name">VGBC</span>
-      </a>
-
-      <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">☰</button>
-
-      <ul id="navMenu" class="menu">
-        <li class="menu__item"><a href="#services" data-i18n="nav.services">Dịch vụ</a></li>
-        <li class="menu__item"><a href="#testimonials" data-i18n="nav.testimonials">Khách hàng</a></li>
-        <li class="menu__item"><a href="#blog" data-i18n="nav.blog">Kiến thức</a></li>
-        <li class="menu__item"><a href="#news" data-i18n="nav.news">Tin tức</a></li>
-        <li class="menu__item cta"><a href="#contact" data-i18n="nav.contact">Liên hệ</a></li>
-        <li class="menu__item lang-switcher">
-          <div class="lang-dropdown">
-            <button class="lang-toggle" aria-expanded="false" aria-controls="langMenu">
-              <span class="lang-current" data-i18n="lang.current">VI</span>
-              <span class="lang-arrow">▼</span>
-            </button>
-            <ul id="langMenu" class="lang-menu">
-              <li><a href="#" data-lang="vi" class="lang-option active">VI</a></li>
-              <li><a href="#" data-lang="en" class="lang-option">EN</a></li>
-              <li><a href="#" data-lang="zh" class="lang-option">中文</a></li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <!-- Header/Navigation Component -->
+  <div id="header-component"></div>
 
   <main id="content">
-    <!-- HERO -->
-    <section class="hero" role="banner" aria-label="Hero">
-      <div class="container hero__inner">
-        <div class="hero__text">
-          <h1>Dịch vụ phiên dịch &amp; ngôn ngữ chuyên nghiệp</h1>
-          <p>Đội ngũ thông dịch viên dày dặn kinh nghiệm, tác phong chuẩn mực, sẵn sàng đồng hành cùng các sự kiện quốc
-            tế của doanh nghiệp bạn.</p>
-          <div class="hero__actions">
-            <a class="btn btn--primary" href="#services">Xem dịch vụ</a>
-            <a class="btn btn--ghost" href="#contact">Nhận báo giá</a>
-          </div>
-        </div>
-        <div class="hero__media">
-          <!-- Ảnh nền/ video giới thiệu -->
-          <div class="video-thumb" aria-label="Video giới thiệu" data-i18n-aria="hero.videoLabel">
-            <div class="ratio-16x9">
-              <iframe title="Giới thiệu" data-i18n-title="hero.videoTitle" src="https://www.youtube.com/embed/dQw4w9WgXcQ" loading="lazy"
-                allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Hero Section Component -->
+    <div id="hero-component"></div>
 
-    <!-- TESTIMONIALS -->
-    <section class="section muted" aria-label="Cảm nhận khách hàng" data-i18n-aria="testimonials.ariaLabel">
-      <div class="container">
-        <header class="section__header">
-          <h2 data-i18n="testimonials.title">Khách hàng nói gì</h2>
-        </header>
-        <div class="slider" data-slider>
-          <div class="slides">
-            <article class="slide">
-              <blockquote>
-                <p data-i18n="testimonials.testimonial1">Dịch cabin mượt mà, dễ nghe; đội ngũ linh hoạt và chuẩn bị kỹ lưỡng cho chủ đề chuyên sâu.</p>
-                <footer data-i18n="testimonials.testimonial1Author">— Đại diện doanh nghiệp năng lượng</footer>
-              </blockquote>
-            </article>
-            <article class="slide">
-              <blockquote>
-                <p data-i18n="testimonials.testimonial2">Tốc độ xử lý thuật ngữ tốt, hỗ trợ chương trình trơn tru từ khâu chuẩn bị đến vận hành.</p>
-                <footer data-i18n="testimonials.testimonial2Author">— Tổ chức hội thảo tài chính</footer>
-              </blockquote>
-            </article>
-            <article class="slide">
-              <blockquote>
-                <p data-i18n="testimonials.testimonial3">MC song ngữ duyên dáng, kết nối khán giả và diễn giả quốc tế rất tự nhiên.</p>
-                <footer data-i18n="testimonials.testimonial3Author">— Công ty truyền thông sự kiện</footer>
-              </blockquote>
-            </article>
-            <article class="slide">
-              <blockquote>
-                <p data-i18n="testimonials.testimonial4">Đội ngũ biên dịch chuẩn xác, thống nhất thuật ngữ, bàn giao nhanh.</p>
-                <footer data-i18n="testimonials.testimonial4Author">— Nhà xuất bản</footer>
-              </blockquote>
-            </article>
-          </div>
-          <button class="slider__ctrl prev" aria-label="Trước" data-i18n-aria="testimonials.prev" data-prev>‹</button>
-          <button class="slider__ctrl next" aria-label="Tiếp" data-i18n-aria="testimonials.next" data-next>›</button>
-          <div class="dots" aria-hidden="true" data-dots></div>
-        </div>
-      </div>
-    </section>
+    <!-- Testimonials Section Component -->
+    <div id="testimonials-component"></div>
 
-    <!-- SERVICES -->
-    <section id="services" class="section" aria-label="Dịch vụ chuyên nghiệp" data-i18n-aria="services.ariaLabel">
-      <div class="container">
-        <header class="section__header">
-          <h2 data-i18n="services.title">Chúng tôi cung cấp</h2>
-          <p class="section__lead" data-i18n="services.subtitle">Danh mục dịch vụ ngôn ngữ toàn diện cho doanh nghiệp.
-          </p>
-        </header>
-        <div class="cards cards--grid-3">
-          <article class="card">
-            <div class="card__media" aria-hidden="true"></div>
-            <h3 class="card__title" data-i18n="services.conference">Phiên dịch Hội nghị</h3>
-            <p class="card__text" data-i18n="services.conferenceDesc">Cung cấp phiên dịch chuyên nghiệp cho các hội nghị, sự kiện quốc tế với đội ngũ thông dịch viên kinh nghiệm.</p>
-            <a href="#" class="card__link" data-i18n="services.viewMore">Xem thêm</a>
-          </article>
-          <article class="card">
-            <div class="card__media" aria-hidden="true"></div>
-            <h3 class="card__title" data-i18n="services.bilingualMC">MC Song ngữ</h3>
-            <p class="card__text" data-i18n="services.bilingualMCDesc">Dẫn dắt chuyên nghiệp các sự kiện bằng hai ngôn ngữ, kết nối hiệu quả khán giả đa văn hóa.</p>
-            <a href="#" class="card__link" data-i18n="services.viewMore">Xem thêm</a>
-          </article>
-          <article class="card">
-            <div class="card__media" aria-hidden="true"></div>
-            <h3 class="card__title" data-i18n="services.english">Tiếng Anh Doanh nghiệp</h3>
-            <p class="card__text" data-i18n="services.englishDesc">Dạy tiếng Anh chuyên biệt cho doanh nghiệp và doanh nhân, tập trung vào giao tiếp thương mại quốc tế.</p>
-            <a href="#" class="card__link" data-i18n="services.viewMore">Xem thêm</a>
-          </article>
-          <article class="card">
-            <div class="card__media" aria-hidden="true"></div>
-            <h3 class="card__title" data-i18n="services.events">Tổ chức sự kiện</h3>
-            <p class="card__text" data-i18n="services.eventsDesc">Tổ chức chuyên nghiệp các hội nghị, hội thảo, sự kiện với quy mô đa dạng từ nhỏ đến lớn.</p>
-            <a href="#" class="card__link" data-i18n="services.viewMore">Xem thêm</a>
-          </article>
-          <article class="card">
-            <div class="card__media" aria-hidden="true"></div>
-            <h3 class="card__title" data-i18n="services.media">Truyền thông báo chí</h3>
-            <p class="card__text" data-i18n="services.mediaDesc">Cung cấp dịch vụ truyền thông, quảng cáo trên các phương tiện báo chí, nâng cao hình ảnh thương hiệu.</p>
-            <a href="#" class="card__link" data-i18n="services.viewMore">Xem thêm</a>
-          </article>
-          <article class="card">
-            <div class="card__media" aria-hidden="true"></div>
-            <h3 class="card__title" data-i18n="services.business">Kết nối kinh doanh</h3>
-            <p class="card__text" data-i18n="services.businessDesc">Xúc tiến thương mại, kết nối doanh nghiệp, tạo cơ hội hợp tác kinh doanh trong và ngoài nước.</p>
-            <a href="#" class="card__link" data-i18n="services.viewMore">Xem thêm</a>
-          </article>
-          <article class="card">
-            <div class="card__media" aria-hidden="true"></div>
-            <h3 class="card__title" data-i18n="services.investment">Kêu gọi vốn đầu tư</h3>
-            <p class="card__text" data-i18n="services.investmentDesc">Hỗ trợ kêu gọi vốn đầu tư cho các dự án, kết nối với nhà đầu tư trong và ngoài nước.</p>
-            <a href="#" class="card__link" data-i18n="services.viewMore">Xem thêm</a>
-          </article>
-        </div>
-      </div>
-    </section>
+    <!-- Services Section Component -->
+    <div id="services-component"></div>
 
-    <!-- BLOG -->
-    <section id="blog" class="section muted" aria-label="Bài viết mới nhất" data-i18n-aria="blog.ariaLabel">
-      <div class="container">
-        <header class="section__header">
-          <h2 data-i18n="blog.title">Bài viết mới</h2>
-        </header>
-        <div class="cards cards--grid-3">
-          <article class="post">
-            <a class="post__thumb" href="#" aria-label="Bài viết 1" data-i18n-aria="blog.post1.label"></a>
-            <div class="post__content">
-              <h3 class="post__title"><a href="#" data-i18n="blog.post1.title">Phiên dịch tại diễn đàn ESG</a></h3>
-              <div class="post__meta" data-i18n="blog.post1.category">Chuyên mục: Môi trường &middot; 17/10/2025</div>
-            </div>
-          </article>
-          <article class="post">
-            <a class="post__thumb" href="#" aria-label="Bài viết 2" data-i18n-aria="blog.post2.label"></a>
-            <div class="post__content">
-              <h3 class="post__title"><a href="#" data-i18n="blog.post2.title">Hội thảo kiến trúc xây dựng</a></h3>
-              <div class="post__meta" data-i18n="blog.post2.category">Chuyên mục: Bất động sản &middot; 17/10/2025</div>
-            </div>
-          </article>
-          <article class="post">
-            <a class="post__thumb" href="#" aria-label="Bài viết 3" data-i18n-aria="blog.post3.label"></a>
-            <div class="post__content">
-              <h3 class="post__title"><a href="#" data-i18n="blog.post3.title">Martech 2025</a></h3>
-              <div class="post__meta" data-i18n="blog.post3.category">Chuyên mục: Marketing &middot; 17/10/2025</div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+    <!-- Blog Section Component -->
+    <div id="blog-component"></div>
 
-    <!-- NEWS SECTION -->
-    <section id="news" class="section" aria-label="Tin tức mới nhất" data-i18n-aria="news.ariaLabel">
-      <div class="container">
-        <header class="section__header">
-          <h2 data-i18n="news.title">Tin tức mới</h2>
-          <p class="section__lead" data-i18n="news.subtitle">Cập nhật những thông tin mới nhất về dịch vụ ngôn ngữ và sự kiện.</p>
-        </header>
-        
-        <div class="news-container">
-          <div class="news-grid" id="newsGrid">
-            <!-- News articles will be dynamically added here -->
-          </div>
-          
-          <div class="news-actions">
-            <button class="btn btn--primary" id="addNewsBtn" data-i18n="news.addNews">Thêm tin tức</button>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- News Section Component -->
+    <div id="news-component"></div>
 
-    <!-- NEWS MODAL -->
-    <div id="newsModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="newsModalTitle">
-      <div class="modal__overlay" tabindex="-1"></div>
-      <div class="modal__content">
-        <div class="modal__header">
-          <h3 id="newsModalTitle" data-i18n="news.addNewsTitle">Thêm tin tức mới</h3>
-          <button class="modal__close" aria-label="Đóng" data-i18n-aria="news.closeModal">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
-            </svg>
-          </button>
-        </div>
-        <div class="modal__body">
-          <form id="newsForm">
-            <div class="form-group">
-              <label for="newsTitle" data-i18n="news.form.title">Tiêu đề</label>
-              <input type="text" id="newsTitle" name="title" required>
-            </div>
-            <div class="form-group">
-              <label for="newsCategory" data-i18n="news.form.category">Danh mục</label>
-              <select id="newsCategory" name="category" required>
-                <option value="ngon-ngu" data-i18n="news.categories.language">Ngôn ngữ</option>
-                <option value="su-kien" data-i18n="news.categories.events">Sự kiện</option>
-                <option value="dao-tao" data-i18n="news.categories.training">Đào tạo</option>
-                <option value="khac" data-i18n="news.categories.other">Khác</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="newsContent" data-i18n="news.form.content">Nội dung</label>
-              <textarea id="newsContent" name="content" rows="5" required></textarea>
-            </div>
-            <div class="form-group">
-              <label for="newsImage" data-i18n="news.form.image">Hình ảnh (URL)</label>
-              <input type="url" id="newsImage" name="image" placeholder="https://example.com/image.jpg">
-            </div>
-            <div class="form-group">
-              <label for="newsAuthor" data-i18n="news.form.author">Tác giả</label>
-              <input type="text" id="newsAuthor" name="author" required>
-            </div>
-          </form>
-        </div>
-        <div class="modal__footer">
-          <button class="btn btn--ghost" id="cancelNewsBtn" data-i18n="news.cancel">Hủy</button>
-          <button class="btn btn--primary" id="saveNewsBtn" data-i18n="news.save">Lưu</button>
-        </div>
-      </div>
-    </div>
+    <!-- Order/Newsletter Section Component -->
+    <div id="order-newsletter-component"></div>
 
-    <!-- ORDER / NEWSLETTER -->
-    <section class="section" aria-label="Đặt hàng & đăng ký" data-i18n-aria="order.ariaLabel">
-      <div class="container two-col">
-        <form class="order" aria-label="Đặt hàng dịch vụ" data-i18n-aria="order.title">
-          <h2 data-i18n="order.title">Đặt hàng dịch vụ</h2>
-          <p data-i18n="order.subtitle">Chọn các dịch vụ bạn quan tâm và bấm <strong>Tiếp tục</strong>.</p>
-          <div class="checks">
-            <label><input type="checkbox" name="svc" value="phien-dich"> <span data-i18n="order.services.conference">Phiên dịch Hội nghị</span></label>
-            <label><input type="checkbox" name="svc" value="mc"> <span data-i18n="order.services.bilingualMC">MC Song ngữ</span></label>
-            <label><input type="checkbox" name="svc" value="tieng-anh"> <span data-i18n="order.services.english">Tiếng Anh Doanh nghiệp</span></label>
-            <label><input type="checkbox" name="svc" value="to-chuc"> <span data-i18n="order.services.events">Tổ chức sự kiện</span></label>
-            <label><input type="checkbox" name="svc" value="truyen-thong"> <span data-i18n="order.services.media">Truyền thông báo chí</span></label>
-            <label><input type="checkbox" name="svc" value="ket-noi"> <span data-i18n="order.services.business">Kết nối kinh doanh</span></label>
-            <label><input type="checkbox" name="svc" value="von-dau-tu"> <span data-i18n="order.services.investment">Kêu gọi vốn đầu tư</span></label>
-          </div>
-          <button class="btn btn--primary" type="submit" data-i18n="order.continue">Tiếp tục</button>
-        </form>
-
-        <form class="newsletter" aria-label="Đăng ký nhận tin" data-i18n-aria="newsletter.ariaLabel">
-          <h2 data-i18n="newsletter.title">Đăng ký nhận tin</h2>
-          <p data-i18n="newsletter.subtitle">Nhận thông tin khoá học và bài viết mới qua email.</p>
-          <div class="fields">
-            <input type="email" data-i18n-placeholder="newsletter.placeholder" placeholder="Email của bạn" required>
-            <button class="btn btn--ghost" type="submit" data-i18n="newsletter.subscribe">Đăng ký</button>
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="section muted" aria-label="Liên hệ" data-i18n-aria="contact.ariaLabel">
-      <div class="container contact">
-        <div class="contact__info">
-          <h2 data-i18n="contact.title">Liên hệ với chúng tôi</h2>
-          <ul>
-            <li><strong data-i18n="contact.address">Địa chỉ:</strong> 490 Đường ABC, Quận 7, TP.HCM</li>
-            <li><strong data-i18n="contact.phone">Điện thoại:</strong> 0 000 000 000</li>
-            <li><strong data-i18n="contact.email">Email:</strong> hello@yourcompany.vn</li>
-          </ul>
-          <div class="social">
-            <a href="#" aria-label="Facebook" data-i18n-aria="contact.social.facebook" data-i18n="contact.social.facebook">Facebook</a>
-            <a href="#" aria-label="YouTube" data-i18n-aria="contact.social.youtube" data-i18n="contact.social.youtube">YouTube</a>
-            <a href="#" aria-label="LinkedIn" data-i18n-aria="contact.social.linkedin" data-i18n="contact.social.linkedin">LinkedIn</a>
-          </div>
-        </div>
-        <div class="contact__map">
-          <div class="ratio-4x3">
-            <iframe title="Bản đồ" data-i18n-title="contact.mapLabel" loading="lazy"
-              src="https://maps.google.com/maps?q=Ho%20Chi%20Minh%20City&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Contact Section Component -->
+    <div id="contact-component"></div>
   </main>
 
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__content">
-        <div class="footer__brand">
-          <div class="footer__logo">
-            <span class="brand__logo" aria-hidden="true">◎</span>
-            <span class="brand__name">VGBC</span>
-          </div>
-          <p class="footer__tagline" data-i18n="footer.tagline">Dịch vụ ngôn ngữ chuyên nghiệp cho doanh nghiệp</p>
-        </div>
+  <!-- Footer Component -->
+  <div id="footer-component"></div>
 
-        <div class="footer__info">
-          <div class="footer__contact">
-            <h3 class="footer__heading" data-i18n="footer.contact">Liên hệ</h3>
-            <p>490 Đường ABC, Quận 7, TP.HCM</p>
-            <p><a href="tel:+84000000000">0 000 000 000</a></p>
-            <p><a href="mailto:hello@yourcompany.vn">hello@yourcompany.vn</a></p>
-          </div>
+  <!-- Load JavaScript modules -->
+  <script src="js/language-manager.js"></script>
+  <script src="js/news-manager.js"></script>
+  <script src="js/ui-components.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    // Load components and initialize i18n after all components are loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      const components = [
+        { id: 'header-component', url: 'pages/header.html' },
+        { id: 'hero-component', url: 'pages/hero.html' },
+        { id: 'testimonials-component', url: 'pages/testimonials.html' },
+        { id: 'services-component', url: 'pages/services.html' },
+        { id: 'blog-component', url: 'pages/blog.html' },
+        { id: 'news-component', url: 'pages/news.html' },
+        { id: 'order-newsletter-component', url: 'pages/order-newsletter.html' },
+        { id: 'contact-component', url: 'pages/contact.html' },
+        { id: 'footer-component', url: 'pages/footer.html' }
+      ];
 
-          <div class="footer__social">
-            <h3 class="footer__heading" data-i18n="footer.follow">Theo dõi chúng tôi</h3>
-            <div class="footer__social-icons">
-              <a href="#" class="footer__social-icon" aria-label="Facebook">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                  <path
-                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                </svg>
-              </a>
-              <a href="#" class="footer__social-icon" aria-label="YouTube">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                  <path
-                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
-                </svg>
-              </a>
-              <a href="#" class="footer__social-icon" aria-label="LinkedIn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                  <path
-                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer__bottom">
-        <p class="footer__copyright" data-i18n="footer.copyright">© <span id="year"></span> VGBC — Cung cấp dịch vụ phiên dịch, MC song ngữ, tiếng Anh doanh nghiệp, tổ chức sự kiện, truyền thông, kết nối kinh doanh và kêu gọi vốn đầu tư.</p>
-        <a class="to-top" href="#content" aria-label="Lên đầu trang" data-i18n-aria="footer.backToTopLabel">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="18 15 12 9 6 15"></polyline>
-          </svg>
-          <span data-i18n="footer.backToTop">Lên đầu trang</span>
-        </a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+      // Load all components
+      Promise.all(components.map(component => 
+        fetch(component.url)
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById(component.id).innerHTML = data;
+            return component.id;
+          })
+          .catch(error => {
+            console.error(`Error loading ${component.url}:`, error);
+            return null;
+          })
+      ))
+      .then(() => {
+        // Reinitialize all components after they are loaded
+        if (window.reinitializeComponents) {
+          window.reinitializeComponents();
+        }
+      })
+      .catch(error => {
+        console.error('Error loading components:', error);
+      });
+    });
+  </script>
 </body>
 
 </html>

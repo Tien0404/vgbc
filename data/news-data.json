@@ -1,0 +1,37 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Ra mắt dịch vụ phiên dịch hội nghị trực tuyến",
+      "category": "ngon-ngu",
+      "categoryDisplay": "Ngôn ngữ",
+      "content": "Chúng tôi vui mừng thông báo ra mắt dịch vụ phiên dịch hội nghị trực tuyến mới, giúp kết nối các sự kiện quốc tế trong bối cảnh mới.",
+      "image": "https://example.com/news1.jpg",
+      "author": "Nguyễn Văn A",
+      "date": "2025-10-15",
+      "display": true
+    },
+    {
+      "id": 2,
+      "title": "Hội thảo kỹ năng MC song ngữ chuyên nghiệp",
+      "category": "su-kien",
+      "categoryDisplay": "Sự kiện",
+      "content": "Hội thảo tập trung vào kỹ năng dẫn chương trình song ngữ, thu hút nhiều chuyên gia trong ngành.",
+      "image": "https://example.com/news2.jpg",
+      "author": "Trần Thị B",
+      "date": "2025-10-10",
+      "display": true
+    },
+    {
+      "id": 3,
+      "title": "Khóa học tiếng Anh thương mại cấp tốc",
+      "category": "dao-tao",
+      "categoryDisplay": "Đào tạo",
+      "content": "Khóa học tiếng Anh thương mại cấp tốc dành cho doanh nhân, tập trung vào kỹ năng giao tiếp thực tế.",
+      "image": "https://example.com/news3.jpg",
+      "author": "Lê Văn C",
+      "date": "2025-10-05",
+      "display": true
+    }
+  ]
+}

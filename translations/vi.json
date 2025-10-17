@@ -151,6 +151,10 @@
       "added": "Tin tức đã được thêm thành công!",
       "deleted": "Tin tức đã được xóa!",
       "confirmDelete": "Bạn có chắc chắn muốn xóa tin tức này?"
-    }
+    },
+    "errorTitle": "Không thể tải tin tức",
+    "errorMessage": "Đã xảy ra lỗi khi tải dữ liệu tin tức. Vui lòng thử lại sau.",
+    "noNews": "Không có tin tức nào để hiển thị.",
+    "requiredFields": "Vui lòng điền đầy đủ các trường bắt buộc!"
   }
 }

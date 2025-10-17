@@ -151,6 +151,10 @@
       "added": "新闻文章已成功添加！",
       "deleted": "新闻文章已删除！",
       "confirmDelete": "您确定要删除这篇新闻文章吗？"
-    }
+    },
+    "errorTitle": "无法加载新闻",
+    "errorMessage": "加载新闻数据时发生错误。请稍后再试。",
+    "noNews": "没有新闻文章可显示。",
+    "requiredFields": "请填写所有必填字段！"
   }
 }

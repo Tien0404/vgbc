@@ -1,0 +1,69 @@
+<section id="news" class="section" aria-label="Tin tức mới nhất" data-i18n-aria="news.ariaLabel">
+  <div class="container">
+    <header class="section__header">
+      <h2 data-i18n="news.title">Tin tức mới</h2>
+      <p class="section__lead" data-i18n="news.subtitle">Cập nhật những thông tin mới nhất về dịch vụ ngôn ngữ và sự
+        kiện.</p>
+    </header>
+
+    <div class="news-container">
+      <div class="news-grid" id="newsGrid">
+        <!-- News articles will be dynamically loaded here -->
+      </div>
+
+      <div class="news-actions">
+        <button class="btn btn--primary" id="addNewsBtn" data-i18n="news.addNews">Thêm tin tức</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS MODAL -->
+<div id="newsModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="newsModalTitle">
+  <div class="modal__overlay" tabindex="-1"></div>
+  <div class="modal__content">
+    <div class="modal__header">
+      <h3 id="newsModalTitle" data-i18n="news.addNewsTitle">Thêm tin tức mới</h3>
+      <button class="modal__close" aria-label="Đóng" data-i18n-aria="news.closeModal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="modal__body">
+      <form id="newsForm">
+        <div class="form-group">
+          <label for="newsTitle" data-i18n="news.form.title">Tiêu đề</label>
+          <input type="text" id="newsTitle" name="title" required>
+        </div>
+        <div class="form-group">
+          <label for="newsCategory" data-i18n="news.form.category">Danh mục</label>
+          <select id="newsCategory" name="category" required>
+            <option value="ngon-ngu" data-i18n="news.categories.language">Ngôn ngữ</option>
+            <option value="su-kien" data-i18n="news.categories.events">Sự kiện</option>
+            <option value="dao-tao" data-i18n="news.categories.training">Đào tạo</option>
+            <option value="khac" data-i18n="news.categories.other">Khác</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="newsContent" data-i18n="news.form.content">Nội dung</label>
+          <textarea id="newsContent" name="content" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="newsImage" data-i18n="news.form.image">Hình ảnh (URL)</label>
+          <input type="url" id="newsImage" name="image" placeholder="https://example.com/image.jpg">
+        </div>
+        <div class="form-group">
+          <label for="newsAuthor" data-i18n="news.form.author">Tác giả</label>
+          <input type="text" id="newsAuthor" name="author" required>
+        </div>
+      </form>
+    </div>
+    <div class="modal__footer">
+      <button class="btn btn--ghost" id="cancelNewsBtn" data-i18n="news.cancel">Hủy</button>
+      <button class="btn btn--primary" id="saveNewsBtn" data-i18n="news.save">Lưu</button>
+    </div>
+  </div>
+</div>
