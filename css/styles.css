@@ -175,7 +175,7 @@ body {
   z-index: 100;
 }
 
-.lang-toggle[aria-expanded="true"]+.lang-menu {
+.lang-toggle[aria-expanded="true"] + .lang-menu {
   display: block;
 }
 

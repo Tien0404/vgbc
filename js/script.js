@@ -49,6 +49,18 @@ function reinitializeComponents() {
   if (window.languageManager) {
     window.languageManager.initializeElements();
     window.languageManager.updateLanguage(window.languageManager.currentLang);
+  } else if (window.LanguageManager) {
+    // Initialize language manager if it hasn't been initialized yet
+    window.languageManager = new LanguageManager();
+    window.languageManager.init();
+    
+    // Register language change callback
+    window.languageManager.onLanguageChange((lang, translations) => {
+      // Reinitialize all components when language changes
+      if (window.UIComponents) {
+        window.UIComponents.initializeFormHandlers();
+      }
+    });
   }
   
   // Reinitialize news manager
